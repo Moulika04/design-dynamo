@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamo Cooking</title>
+
+    <!-- Linking the External Style Sheet (style.css) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inline Styles for Testing -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+.comments-section textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+h3 {
+            color: #023020; /* Lime green color for recipe headings */
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://cdn.vectorstock.com/i/500p/12/90/cook-with-love-lettering-ladle-whisk-logo-vector-33191290.jpg" alt="Dynamo Cooking Logo">
+        </div>
+        <h1>Dynamo Cooking</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+        <h2>Welcome to Dynamo Cooking</h2>
+        <p>Your go-to place for delicious recipes from around the world!</p>
+    </div>
+
+    <!-- Recipes Section -->
+    <div class="recipes" id="recipes">
+        <h2>Our Recipes</h2>
+
+        <h3>Recipe 1: Paneer Butter Masala </h3>
+        <div class="food-section">
+            <img src="https://myfoodstory.com/wp-content/uploads/2021/07/restaurant-style-paneer-butter-masala-2-500x500.jpg" alt="Paneer Butter Masala" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <ul>
+                <li><b>Gravy:</b> 2 tbsp butter, 1 tbsp oil, 1 onion (chopped), 2 tomatoes (pureed), 1 tbsp ginger-garlic paste, spices (red chili powder, turmeric, garam masala, coriander powder), 1/2 cup water, 1/4 cup fresh cream, 1 tbsp kasuri methi, salt, and sugar (optional).</li>
+                <li><b>Paneer:</b> 250g paneer (cubed), 1 tbsp butter for sautéing.</li>
+                <li><b>Garnish:</b> Fresh coriander leaves, cream.
+</li>            </ul>
+            <h4>Procedure:</h4>
+            <p>1.<b>Prepare the cashew paste:</b> Blend soaked cashews into a smooth paste.</p>
+            <p>2.<b> Fry paneer:</b> Lightly fry paneer cubes in butter (optional).</p>
+            <p>3.<b>Make gravy:</b> Sauté onions, ginger-garlic paste, and pureed tomatoes in butter. Add spices (chili powder, garam masala, turmeric) and cook until oil separates.</p>
+	    <p>4.<b>Add cashew paste:</b> Stir in cashew paste, kasuri methi, salt, and water. Simmer for 5 minutes. </p>
+            <p>5.<b>Finish:</b> Add paneer, fresh cream, and cook for 5 more minutes. </p>
+            <p>6.<b>Garnish:</b> Top with chopped cilantro.
+        </div>
+
+        <h3> Recipe 2: Mutton Biryani </h3>
+        <div class="food-section">
+            <img src="https://cookwithnoorain.com/wp-content/uploads/2024/06/IMG_2487-scaled.jpg" alt="Mutton Biryani" class="food-image">
+            <h4>Ingredients:</h4>
+	    <ul>
+            <li><b>For Marinating the Mutton:</b> 500g mutton, 1 cup yogurt, 2 tbsp ginger-garlic paste, 1 tbsp red chili powder, 1 tsp garam masala, 1 tsp coriander powder, salt, lemon juice, mint leaves (optional).</li>
+                <li><b>For Rice:</b> 1.5 cups basmati rice, 3 cups water, spices (bay leaves, cardamom, cinnamon, cloves, cumin), salt.</li>
+                <li><b>For Biryani:</b> 2 tbsp ghee/oil, 2 onions (sliced), 1 tbsp ginger-garlic paste, 1 large tomato, mint, coriander leaves, saffron milk (optional).</li>
+            </ul> 
+	    <h4>Procedure:</h4>
+            <p>1. <b>Marinate Mutton:</b> Mix mutton with yogurt, ginger-garlic paste, spices, salt, lemon juice, and mint. Marinate for 1-2 hours.</p>
+            <p>2. <b>Cook Rice:</b> Boil rice with water and whole spices until 70% cooked. Drain and set aside.</p>
+            <p>3. <b>Prepare Mutton Masala: </b>In a pan, fry onions in ghee until golden, remove half for garnish. Add ginger-garlic paste, tomatoes, spices, and cook until soft. Add marinated mutton and cook until tender (use a pressure cooker for faster cooking).</p>
+	    <p>4. <b>Layer the Biryani:</b> In a large pot, layer cooked mutton and rice. Add mint, coriander, and saffron milk (optional). Cover and cook on low heat (dum) for 20-30 minutes.</p>
+            <p>5. <b>Serve: </b>Garnish with fried onions, mint, and coriander. Serve hot with raita or salad. </p>	        </div>
+
+        <h3> Recipe 3: White Sauce Pasta </h3>
+        <div class="food-section">
+            <img src="https://www.indianveggiedelight.com/wp-content/uploads/2022/12/white-sauce-pasta-featured-500x500.jpg" alt="White Sauce Pasta" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>200g pasta (penne, fusilli, or spaghetti)</li>
+                <li>2 tbsp butter</li>
+                <li>2 tbsp all-purpose flour (maida)</li>
+                <li>1 cup milk (warm)</li>
+                <li>1/2 cup grated cheese (Parmesan or mozzarella)</li>
+                <li> 1/4 tsp garlic powder (optional)</li>
+                <li> Salt and pepper to taste</li>
+                <li> Fresh parsley (optional, for garnish)</li>
+            </ul>
+            <h4>Procedure:</h4>
+            <p>1.<b>Cook the pasta:</b> Boil the pasta in salted water until al dente, drain, and set aside.</p>
+            <p>2. <b>Make the white sauce:</b> In a pan, melt butter. Add flour and cook for 1-2 minutes until it forms a roux. Slowly add warm milk, whisking continuously to avoid lumps. Cook until the sauce thickens.</p>
+            <p>3.<b>Make the white sauce:</b> In a pan, melt butter. Add flour and cook for 1-2 minutes until it forms a roux. Slowly add warm milk, whisking continuously to avoid lumps. Cook until the sauce thickens.</p>
+            <p>4. <b>Combine pasta and sauce:</b> Add the cooked pasta to the sauce and toss to coat evenly.</p>
+            <p>5. <b>Serve: </b>Garnish with fresh parsley (optional) and serve hot.</p>        </div>
+
+        <h3> Recipe 4: Ginger Milk Tea </h3>
+        <div class="food-section">
+            <img src="https://www.indianveggiedelight.com/wp-content/uploads/2023/04/ginger-tea-featured.jpg" alt="Ginger Milk Tea" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>1 cup water</li>
+                <li>1 cup milk (dairy or plant-based)</li>
+                <li>1-inch piece of fresh ginger (grated or thinly sliced)</li>
+                <li>2 teaspoons black tea leaves (or 2 tea bags)</li>
+                <li> 1-2 teaspoons sugar or honey (optional, adjust to taste)</li>
+                <li> 1/4 teaspoon ground cinnamon (optional)</li>
+            </ul>
+            <h4>Procedure:</h4>
+            <p>1. In a saucepan, bring 1 cup of water to a boil.</p>
+            <p>2. Add grated or sliced ginger and let it simmer for 2–3 minutes to infuse.</p>
+            <p>3.Add the tea leaves (or tea bags) to the boiling water. </p>
+            <p>4.Let it steep for 2–3 minutes, depending on your desired strength. </p>
+            <p>5.Pour in the milk and stir well.Allow the mixture to simmer for another 2–3 minutes, ensuring it doesn’t boil over. </p>
+            <p>6.Add sugar or honey to taste and stir until dissolved. </p>
+            <p>7.Strain the tea into a cup to remove the ginger and tea leaves. </p>
+            <p>8.Sprinkle with a pinch of ground cinnamon if desired. </p>
+        </div>
+
+        <h3> Recipe 5: Rose Milk </h3>
+        <div class="food-section">
+            <img src="https://www.spiceupthecurry.com/wp-content/uploads/2023/04/rose-milk-recipe-3.jpg" alt="Rose Milk" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>1 cup chilled milk</li>
+                <li>1-2 tbsp rose syrup (adjust to taste)</li>
+                <li>Ice cubes (optional)</li>
+                <li>Crushed nuts (optional, for garnish)</li>
+            </ul>
+            <h4>Procedure:</h4>
+            <p>1. <b>Mix:</b> In a glass, pour the chilled milk and add rose syrup.</p>
+            <p>2. <b>Stir:</b> Mix well until the syrup is fully dissolved.</p>
+            <p>3. <b>Serve:</b> Add ice cubes if desired and garnish with crushed nuts (optional).</p>
+            <p>4. <b>Enjoy:</b> Serve chilled and enjoy the refreshing Rose Milk!</p>
+        </div>
+
+        <h3> Recipe 6: Chole Bhature </h3>
+        <div class="food-section">
+            <img src="https://i.ytimg.com/vi/wAv-mFU7eus/maxresdefault.jpg" alt="Chole Bhature" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>1 cup chickpeas (chole) (soaked overnight)</li>
+                <li>2 tbsp oil</li>
+                <li>1 large onion (finely chopped)</li>
+                <li>2 tomatoes (pureed)</li>
+		<li> 1 tsp ginger-garlic paste</li>
+		<li>1 tsp cumin seeds </li>
+		<li> 1 tsp turmeric powder</li>
+		<li> 1 tsp red chili powder</li>
+		<li> 1 tsp coriander powder</li>
+		<li>1 tsp garam masala </li>
+		<li> 1 tsp chole masala</li>
+		<li> Salt (to taste)</li>
+		<li> 2 cups water</li>
+		<li> Fresh coriander leaves (for garnish)</li>
+</ul>
+            <h4>Procedure:</h4>
+            <p>1.Pressure cook soaked chickpeas with salt and water for 5–6 whistles or until soft.</p>
+            <p>2. Heat oil in a pan. Add cumin seeds and let them splutter.</p>
+            <p>3. Add chopped onions and sauté until golden brown.</p>
+		<p>4. Add ginger-garlic paste and cook for 1 minute.</p>
+		<p>5.Add tomato puree, turmeric, chili powder, coriander powder, and chole masala. Cook until the oil separates. </p>
+		<p>6.Add garam masala and mix well. </p>
+     		<p>7.Garnish with fresh coriander leaves. </p>
+
+		<h5><b>Bhature (Fried Bread)</b><h5>
+		<h4> Ingredients</h4>
+	<ul>
+		<li> 2 cups all-purpose flour (maida)</li>
+		<li> 1/2 cup semolina (suji)</li>
+		<li> 1/2 cup yogurt</li>
+		<li>1/2 tsp baking soda </li>
+		<li> 1/2 tsp salt</li>
+		<li> Water (as needed)</li>
+		<li> Oil (for deep frying)</li>
+	</ul>
+	<h4> Procedure</h4>
+		<p>In a mixing bowl, combine flour, semolina, baking soda, salt, and yogurt. </p>
+		<p>Add water gradually and knead into a soft dough. </p>
+		<p>Cover and let it rest for 1–2 hours. </p>
+		<p> Divide the dough into small balls and roll them into oval or round shapes.</p> 
+		<p> Heat oil in a deep frying pan.</p>
+		<p> Fry each Bhatura until it puffs up and turns golden brown.</p>
+		<p>Remove and drain on paper towels. </p>
+
+        </div>
+
+        <h3> Recipe 7: Mushroom Tikka Masala </h3>
+        <div class="food-section">
+            <img src="https://i.pinimg.com/736x/a1/37/f5/a137f57b71bc3803ff45e22c290a8fe3.jpg" alt="Mushroom Tikka Masala" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>200g mushrooms (sliced)</li>
+                <li>1/2 cup yogurt</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>1 tbsp lemon juice</li>
+		<li>1 tsp red chili powder, garam masala </li>
+		<li> 1 large onion (chopped)</li>
+		<li> 1 tomato (pureed)</li>
+		<li>1/2 tsp cumin, turmeric, coriander powder</li>
+		<li>1/4 cup cream (optional) </li>
+		<li> Salt & fresh coriander for garnish</li>
+            <h4>Procedure:</h4>
+            <p>1. <b>Marinate:</b> Mix yogurt, ginger-garlic paste, lemon juice, and spices. Marinate mushrooms for 30 mins.</p>
+            <p>2. <b>Cook mushrooms:</b> Sauté marinated mushrooms in oil until browned, then set aside.</p>
+            <p>3. <b> Make masala:</b> Sauté onions, add tomato puree, and cook with spices until oil separates.</p>
+	    <p>4. <b>Combine:</b> Add mushrooms, simmer for 5-10 mins. Stir in cream (optional).</p>
+	    <p>5. <b>Serve:</b> Garnish with coriander and serve with naan or rice.</p> 
+        </div>
+
+        <h3> Recipe 8: Butter Naan </h3>
+        <div class="food-section">
+            <img src="https://i.ytimg.com/vi/H3tW-UFSojU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBYPNO1t9Z86EFlkaFQu8wPoYpLsQ" alt="Butter Naan" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>2 cups all-purpose flour (maida)</li>
+		<li>1/2 cup yogurt</li>
+		<li>1/4 cup warm milk</li>
+		<li>1 tsp sugar</li>
+		<li>1/2 tsp baking soda</li>
+		<li>1 tsp baking powder</li>
+		<li>1/2 tsp salt</li>
+		<li>2 tbsp oil or melted butter</li>
+		<li>Water (as needed for kneading)</li>
+		<li>Butter (melted, for brushing)</li>
+		<li>Fresh coriander leaves (chopped, optional)</li>            
+	</ul>
+            <h4>Procedure:</h4>
+            <p>1.<b>Prepare the Dough:</b>In a large bowl, mix flour, baking soda, baking powder, salt, and sugar.</p>
+		<p>2.Add yogurt, warm milk, and oil.</p>
+		<p>3.Gradually add water and knead into a soft, slightly sticky dough.</p>
+		<p>4.Cover the dough with a damp cloth and let it rest for 1–2 hours.</p>
+		<p>5.Roll the Naan</p>
+		<p>6.After resting, divide the dough into small equal-sized balls.</p>
+		<p>7.Roll each ball into an oval or round shape on a floured surface.</p>
+		<p>8.(Optional) Sprinkle chopped coriander on one side and press lightly.</p>
+		<p>9. Cook the Naan</p>
+		<p>10.Heat a tawa or skillet on medium-high heat.</p>                                                                                                                                                       		<p>11.Place the rolled naan on the hot skillet.</p>                                                                                                                                                               		<p>12.Cook until bubbles form on one side.</p>
+		<p>13.Flip and cook the other side until golden brown spots appear.</p>
+		<p>14.In the Oven Preheat the oven to 500°F (260°C).</p>
+		<p>15.Place naan on a baking tray and bake for 2–3 minutes, or until puffed and golden.</p>                                                                                          		<p>16.Brush with Butter</p>
+		<p>17.Remove naan from heat and immediately brush with melted butter.</p>
+		<p>18.Serve warm with your favorite curry or gravy.</p>     
+        </div>
+
+        <h3> Recipe 9: Mutton Samosa </h3>
+        <div class="food-section">
+            <img src="https://www.whiskaffair.com/wp-content/uploads/2022/11/Mutton-Keema-Samosa-2-3.jpg" alt="Mutton Samosa" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li>1 medium onion (finely chopped)</li>
+<li>2 tsp ginger-garlic paste</li>
+<li>1 green chili (finely chopped, optional)</li>
+<li>1/2 tsp turmeric powder</li>
+<li>1 tsp cumin powder</li>
+<li>1 tsp coriander powder</li>
+<li>1/2 tsp garam masala</li>
+<li>1/2 tsp red chili powder</li>
+<li>2 tbsp oil</li>
+<li>Salt (to taste)</li>
+<li>Fresh coriander leaves (chopped)</li>
+<li>For the Samosa Dough: 2 cups all-purpose flour (maida)</li>
+<li>1/4 cup oil or ghee</li>
+<li>1/2 tsp carom seeds (ajwain)</li>                                                                                                                                                                            <li>1/2 tsp salt</li>
+<li>Water (as needed for kneading)</li>
+<li>For Frying: Oil (for deep frying)</li>
+            <h4>Procedure:</h4>
+            <p>1.Prepare the Filling</p>
+<p>2.Heat 2 tbsp oil in a pan.</p>
+ <p>Add chopped onions and sauté until golden brown.</p>
+<p>3.Add ginger-garlic paste and cook until raw smell disappears.</p>
+<p>4.Add minced mutton and sauté until browned.</p>
+<p>5.Mix in turmeric, cumin powder, coriander powder, red chili powder, garam masala, and salt.</p>
+<p>6.Cook the mixture until the mutton is fully cooked and dry.</p>
+<p>7.Add chopped coriander leaves and mix well.</p>
+<p>8.Prepare the Dough</p>
+<p>9.In a mixing bowl, combine flour, salt, and carom seeds (ajwain).</p>
+<p>10.Add oil/ghee and rub it into the flour until it resembles breadcrumbs.</p>
+<p>11.Gradually add water and knead into a firm dough.</p>
+<p>12.Cover the dough with a damp cloth and let it rest for 30 minutes.</p>
+<p>13.Assemble the Samosas</p>
+<p>14.Divide the dough into small balls and roll each ball into an oval shape.</p>
+<p>15.Cut the oval in half to form two semi-circles.</p>
+<p>16.Shape each semi-circle into a cone by folding and sealing the edges with water.</p>
+<p>17.Fill the cone with mutton filling.</p>
+<p>18.Seal the top tightly with water to ensure no filling escapes while frying.</p>
+<p>19.Fry the Samosas</p>
+<p>20.Heat oil in a deep frying pan on medium heat.</p>
+<p>21.Carefully drop the samosas into the oil.</p>
+<p>22.Fry until golden brown and crispy.</p>
+<p>23.Remove and drain excess oil on paper towels.</p>
+<p>24.Serve your hot and crispy mutton samosas with mint chutney or tamarind sauce.</p>
+        </div>
+
+        <h3> Recipe 10: Vegetable Soup </h3>
+        <div class="food-section">
+            <img src="https://www.cookingclassy.com/wp-content/uploads/2014/10/vegetable-soup-7.jpg" alt="Vegetable Soup" class="food-image">
+            <h4>Ingredients:</h4>
+            <ul>
+                <li> 1 tbsp olive oil or butter</li>
+<li>1 onion (finely chopped)</li>
+<li>2 garlic cloves (minced)</li>
+<li>1 carrot (diced)</li>
+<li>1/2 cup beans (chopped)</li>
+<li>1/4 cup cabbage (shredded)</li>
+<li>1/4 cup corn kernels</li>
+<li>1/4 cup green peas</li>
+<li>1 tomato (chopped)</li>
+<li>4 cups vegetable stock or water</li>
+<li>1 tsp black pepper powder</li>
+<li>1/2 tsp chili flakes (optional)</li>
+<li>1 tsp soy sauce</li>
+<li>Salt (to taste)</li>
+<li>1 tsp cornflour (optional, for thickening)</li>
+<li>Fresh coriander or parsley (for garnish)</li>
+            </ul>
+            <h4>Procedure:</h4>
+            <p><b>  1.</b> Sauté Vegetables
+Heat 1 tbsp oil or butter in a large pot over medium heat.
+Add onion and garlic; sauté until softened.
+Add carrot, beans, cabbage, corn, and green peas. Cook for 3–4 minutes until slightly tender.</p>
+<p><b>  2.</b> Add Tomatoes & Stock
+Add chopped tomato and cook for another 2 minutes.
+Pour in vegetable stock or water and bring to a boil.</p>
+<p><b> 3.</b> Season & Simmer
+Add salt, black pepper powder, and chili flakes.
+Stir in soy sauce and mix well.
+Reduce the heat and let the soup simmer for 10–15 minutes.</p>
+<p><b>  4.</b> Thicken the Soup (Optional)
+Mix 1 tsp cornflour with 2 tbsp water to make a slurry.
+Stir the slurry into the soup and simmer for another 2 minutes until slightly thickened.</p>
+<p> <b>5.</b> Garnish & Serve
+Taste and adjust seasoning if needed.
+Garnish with fresh coriander or parsley.
+Serve hot with toasted bread or crackers.</p> 
+        </div>
+
+    </div>
+
+    <!-- Comments Section -->
+    <div class="comments-section">
+        <h3>Leave a Comment</h3>
+        <textarea placeholder="Write your comment here..."></textarea><br>
+        <button>Submit Comment</button>
+    </div>
+
+
+    <!-- About Us Section -->
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>Dynamo Cooking</strong>, where passion meets the kitchen! Founded in 2024, our mission is to inspire and empower food lovers of all skill levels to create delicious and unforgettable meals. Whether you're a novice or an experienced cook, Dynamo Cooking offers a wealth of recipes, cooking tips, and culinary techniques to help you elevate your kitchen game.</p>
+        <p>At Dynamo Cooking, we believe that cooking should be fun, easy, and accessible. We strive to bring joy into every dish with a focus on fresh ingredients, diverse flavors, and creative twists on classic recipes. Join us as we explore the world of cooking and embark on an exciting culinary journey together!</p>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Whether you have a question, suggestion, or just want to say hello, feel free to get in touch with us through the following channels:</p>
+        <ul>
+            <li><strong>Email</strong>: <a href="mailto:dynamo_cooking@gmail.com">dynamo_cooking@gmail.com</a></li>
+            <li><strong>Instagram</strong>: <a href="https://www.instagram.com/dynamo_cooking"> @dynamo_cooking</a></li>
+            <li><strong>Facebook</strong>: <a href="https://www.facebook.com/dynamo_cooking">Dynamo Cooking</a></li>
+            <li><strong>Phone</strong>: 0124553</li>
+        </ul>
+        <p>We look forward to connecting with you and sharing the joy of cooking!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dynamo Cooking. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
